@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Edgar Negrón's Portfolio</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+        
+        <style> 
+            
+            body{ 
+                background-color:black;
+            }
+            
+            #main-heading {
+            
+                font-family: helvetica;
+                font-size: 200px;
+                color: rgba(240, 255, 255, 0.35);
+                margin:relative;
+                text-align: center;
+                position: absolute;
+                top: 10px;
+                left: 250px; }
+            
+            #intro { 
+                color: whitesmoke;
+                font-size: 18px;
+                font-family: Georgia;
+                width: 600px;
+                text-align: center;
+                font-size: 30px;
+                
+                
+            }
+               
+            .social-networks{ 
+                    margin: auto;
+                    top: 500px; 
+                    bottom: 10px;
+                align-content: center;
+                            
+                } 
+            
+            .subtitles {
+                    color: whitesmoke;
+                    font-size: 100px;
+                    font-family: "futura"; sans-serif; 
+                    text-align: center;
+            }
+            img {
+                    max-width: 100%;
+                    height: auto;
+                    width: auto\9; //* ie8 */
+            }
+            
+            
+            .social-networks{ 
+                position: relative;
+                top: 1000px;
+                
+                
+                margin-top: 500px;
+            }
+        
+                
+            
+        </style>
+        
+    </head>
+    
+   
+    
+        <body> 
+        
+        <img src="https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/10459108_10154268229705228_2750053271951246018_n.jpg?_nc_cat=102&_nc_ht=scontent-mia3-1.xx&oh=a56347c3f5a3791ef6706b0c4d97c337&oe=5CF3589A" alt="Background black and white image of Edgar Negrón, in a toga during graduation." width= 1280px >
+    
+    <h1 id="main-heading"> Edgar <div>Negrón's </div>  Portfolio </h1>
+            
+            <div id="intro"> <p> My name is Edgar Negrón, I am an Audiovisual Communications graduate from the University of Puerto Rico, Río Piedras Campus. I have a variety of skills in Camera Operation and Editing, Graphic Design and Programming. I am bilingual and am in the process of learning French and Japanese.   </p> </div> 
+            
+            
+            
+            
+            <h2 class="subtitles"> Film and editing</h2>
+            
+            <h2 class="subtitles"> Graphic Design</h2> 
+            
+            <h2 class="subtitles"> Programming </h2>
+            
+                <p> This website was proggramed by me, as I program and develop other sites, I will continue to add them in this section. In the meantime, <a>check my GitHub here</a> to see what I'm currently working on.</p>
+                                
+                              
+    
+            
+            <div style="justify-content: center"> <footer> 
+            <a href="https://www.linkedin.com/in/edgar-negron-a89b2627/"id="social-networks" target="_blank"> <img  src="http://www.mavitecgreenenergy.com/wordpress/wp-content/uploads/2016/04/Linkedin-Icon.png" alt= "LinkedIn button" width="50px"> </a> 
+            
+            <a href="https://github.com/Eduardotipo" target="_blank"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Cat octopus hibrid, GitHub logo" width="50px" ></a>
+            
+            
+            </footer> </div>
+    
+    </body>
+    
+    </html> 
