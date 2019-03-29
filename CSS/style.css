@@ -1,0 +1,132 @@
+@import 
+url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body {
+    text-align: center;
+    background-color: #000;
+    color: whitesmoke;
+ }
+                            /* Header Style */ 
+                            
+header {
+    background-image: url("https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/10459108_10154268229705228_2750053271951246018_n.jpg?_nc_cat=102&_nc_ht=scontent-mia3-1.xx&oh=a56347c3f5a3791ef6706b0c4d97c337&oe=5CF3589A");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+
+}
+.page-name {
+            
+    font-family: "Roboto", Helvetica, sans-serif;
+    color: whitesmoke; 
+    opacity:0.9;
+    
+    
+    
+}
+/* img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 
+} 
+*/
+.nav ul {
+    list-style: none;
+         
+}
+
+.nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+.nav a {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 1em;
+    padding: .5em;
+    background: limegreen;
+    color: whitesmoke;
+    text-align: center;
+}
+
+a:hover,
+a:focus {
+   background: whitesmoke;
+   color: black; 
+}
+           
+                            /* Content Style */
+
+
+                  
+.intro { 
+color:  black;
+background: whitesmoke;
+font-size: 1em;
+font-family: Georgia;
+width: 50%;
+margin: auto;
+margin-top: 5%;
+padding: 1em;
+font-size: 1em;
+
+}
+        
+h2 {
+    font-size: 2em;
+    padding: .5em;
+ }           
+
+ul .skills {
+    border: 3px solid limegreen;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: limegreen;
+    border-radius: 50px;
+    width: 15%;
+    margin: auto;
+    list-style: none;
+    display: inline;
+
+}
+            
+#programming {
+    font-family: Georgia;
+    width: 600px;
+    font-size: 20px;
+    
+}
+               
+#social-networks{ 
+                             
+} 
+            
+.subtitles {
+color: whitesmoke;
+    font-family: "futura", sans-serif; 
+    
+}
+            
+
+            
+ @media only screen and (min-width: 1080px) 
+ {
+    header {
+        background-image: url("https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/10459108_10154268229705228_2750053271951246018_n.jpg?_nc_cat=102&_nc_ht=scontent-mia3-1.xx&oh=a56347c3f5a3791ef6706b0c4d97c337&oe=5CF3589A");
+        background-repeat: no-repeat;
+        background-size: 60%;
+        width: 100%;  
+        margin: auto;
+ }            
+        
+                
+ }          
