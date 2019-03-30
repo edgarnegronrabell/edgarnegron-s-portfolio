@@ -105,10 +105,8 @@ ul .skills {
     margin: auto;
     list-style: none;
     display: block;
-    
-
 }
-
+                                /* Graphic Design Page Style*/
 .gd_div {
     background-color: limegreen;
     
@@ -119,19 +117,22 @@ ul .skills {
     
 }
 .a {
-    width: 313px;
+    width: 82%;
     margin-top: 5%;
 }
+
+.b {
+    width: 40%;
+}
 .d {
-    width: 350px;
+    width: 30%;
 }
 
-#programming {
-    font-family: Georgia;
-    width: 600px;
-    font-size: 20px;
-
+.j {
+    width: 70%;
 }
+
+                            /* Footer Style*/
 
 img {
   width: 50px;
@@ -143,9 +144,9 @@ color: whitesmoke;
 
 }
 
-                                    /*  Media Queries */
+                                    /*  Media Queries 
 
- /* @media only screen and (min-width: 1080px)
+  @media only screen and (min-width: 1000px)
  {
     header {
         background-image: url("https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/10459108_10154268229705228_2750053271951246018_n.jpg?_nc_cat=102&_nc_ht=scontent-mia3-1.xx&oh=a56347c3f5a3791ef6706b0c4d97c337&oe=5CF3589A");
@@ -154,8 +155,6 @@ color: whitesmoke;
         width: 100%;
         margin: auto;
 }
-
-
     
 }
 .gd_img {
@@ -164,14 +163,14 @@ color: whitesmoke;
     
 }
 .a {
-    width: 500px;
+    width: 80%;
     margin-top: 5%;
 }
 .b {
-    width: 250px;
+    width: 40%;
 }
 .c {
-    width: 250px;
+    width: 30%;
 }
 
 .d {
