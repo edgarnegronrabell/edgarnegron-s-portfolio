@@ -11,7 +11,9 @@ body {
     text-align: center;
     background-color: #000;
     color: whitesmoke;
- }
+}                          
+
+ 
                             /* Header Style */
 
 header {
@@ -89,6 +91,10 @@ font-size: 1em;
 h2 {
     font-size: 2em;
     padding: .5em;
+ }
+
+ canvas {
+     
  }
 
  div .container {
