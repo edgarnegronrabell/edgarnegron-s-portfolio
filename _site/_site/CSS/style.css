@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    box-sizing: border-box;
+    vertical-align: baseline;
+ }
+/* GLOBAL STYLES */ 
+body {
+    text-align: center;
+    background-color: #000;
+    color: whitesmoke;
+}                          
+/* HEADER STYLES */
+
+.header-nav {
+    float:right;
+}
+.header-nav > li {
+    color: whitesmoke;
+    display: inline-block;
+    font-family: "Roboto", Helvetica, sans-serif;
+    opacity:0.9;
+    float: left;
+}
+
+.header-name {
+    display: inline-block;
+    font-size: 2rem;
+    
+    
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin: 1em;
+}
+
+nav a {
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: lowercase;
+    padding: .5em;
+    background: limegreen;
+    color: whitesmoke;
+    text-align: center;
+}
+
+a:hover,
+a:focus {
+   background: whitesmoke;
+   color: black;
+}
+.full-hero {
+    width: 1000px;
+    height: auto;
+}
+.hero-content {
+    background-image: url("https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/10459108_10154268229705228_2750053271951246018_n.jpg?_nc_cat=102&_nc_ht=scontent-mia3-1.xx&oh=a56347c3f5a3791ef6706b0c4d97c337&oe=5CF3589A");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* Content Style */
+
+
+
+.intro {
+color:  black;
+background: whitesmoke;
+font-size: 1em;
+font-family: Georgia;
+width: 100%;
+margin: auto;
+padding: 1em;
+font-size: 1em;
+
+}
+
+.intro p {
+    width:70%;
+    margin: auto;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 2em;
+    padding: .5em;
+ }
+
+
+
+ div .container {
+    width: 70%;
+    margin: auto;
+ }
+ 
+ul > .skills {
+    background-color: limegreen;
+    border-radius: 50px;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 10px;
+    margin: 1vh 5px;
+    vertical-align: baseline;
+    list-style: none;
+    width: 15vw;
+    
+}
+                                /* Graphic Design Page Style*/
+.gd_div {
+    background-color: limegreen;
+    
+}
+.gd_img {
+    width: 40%;
+    display: inline-block;
+    
+}
+.a {
+    width: 50vh;
+    margin-top: 5%;
+}
+
+.b {
+    width: 50vh;
+}
+.d {
+    width: 50vh;
+}
+
+.j {
+    width: 70%;
+}
+
+                            /* Footer Style*/
+
+img {
+  width: 50px;
+}
+
+.subtitles {
+color: whitesmoke;
+    font-family: "futura", sans-serif;
+
+}
+
+                                    /*  Media Queries 
+
+  @media only screen and (min-width: 1000px)
+ {
+    header {
+        background-image: url("https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/10459108_10154268229705228_2750053271951246018_n.jpg?_nc_cat=102&_nc_ht=scontent-mia3-1.xx&oh=a56347c3f5a3791ef6706b0c4d97c337&oe=5CF3589A");
+        background-repeat: no-repeat;
+        background-size: 60%;
+        width: 100%;
+        margin: auto;
+}
+    
+}
+.gd_img {
+    width: 40%;
+    display: inline-block;
+    
+}
+.a {
+    width: 80%;
+    margin-top: 5%;
+}
+.b {
+    width: 40%;
+}
+.c {
+    width: 30%;
+}
+
+.d {
+    width: 50%;
+}

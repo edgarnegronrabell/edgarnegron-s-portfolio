@@ -27,6 +27,8 @@ body {
 
 .header-name {
     display: inline-block;
+    font-size: 2rem;
+    
     
 }
 
@@ -37,11 +39,11 @@ nav li {
 }
 
 nav a {
+    border-radius: 20px;
     font-size: 1em;
     font-weight: bold;
     text-decoration: none;
     text-transform: lowercase;
-    
     padding: .5em;
     background: limegreen;
     color: whitesmoke;
@@ -94,19 +96,21 @@ h2 {
 
 
  div .container {
-     width: 70%;
-     margin: auto;
+    width: 70%;
+    margin: auto;
  }
-ul .skills {
-    border: 3px solid limegreen;
-    padding: 10px;
-    color: whitesmoke;
+ 
+ul > .skills {
     background-color: limegreen;
     border-radius: 50px;
-    width: 15%;
-    margin: auto;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 10px;
+    margin: 1vh 5px;
+    vertical-align: baseline;
     list-style: none;
-    display: block;
+    width: 15vw;
+    
 }
                                 /* Graphic Design Page Style*/
 .gd_div {

@@ -1,4 +1,16 @@
-* {
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section,
+summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -6,6 +18,38 @@
     box-sizing: border-box;
     vertical-align: baseline;
  }
+
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section {
+   display: block;
+ }
+ body {
+   line-height: 1;
+ }
+ blockquote, q {
+   quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+   content: '';
+   content: none;
+ }
+ table {
+   border-collapse: collapse;
+   border-spacing: 0;
+ }
+ strong, b {
+   font-weight: bold;
+ }
+ em, i {
+   font-style: italic;
+ }
+ a img {
+   border: none;
+ }
+ /* END RESET*/
+
 /* GLOBAL STYLES */ 
 body {
     text-align: center;
@@ -19,7 +63,6 @@ body {
 }
 .header-nav > li {
     color: whitesmoke;
-    display: inline-block;
     font-family: "Roboto", Helvetica, sans-serif;
     opacity:0.9;
     float: left;
@@ -27,7 +70,7 @@ body {
 
 .header-name {
     display: inline-block;
-    
+    font-size: 2rem;
 }
 
 nav li {
@@ -37,11 +80,11 @@ nav li {
 }
 
 nav a {
+    border-radius: 20px;
     font-size: 1em;
     font-weight: bold;
     text-decoration: none;
     text-transform: lowercase;
-    
     padding: .5em;
     background: limegreen;
     color: whitesmoke;
@@ -65,8 +108,6 @@ a:focus {
 }
 
 /* Content Style */
-
-
 
 .intro {
 color:  black;
@@ -94,19 +135,21 @@ h2 {
 
 
  div .container {
-     width: 70%;
-     margin: auto;
+    width: 70%;
+    margin: auto;
  }
-ul .skills {
-    border: 3px solid limegreen;
-    padding: 10px;
-    color: whitesmoke;
+ 
+ul > .skills {
     background-color: limegreen;
     border-radius: 50px;
-    width: 15%;
-    margin: auto;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 10px;
+    margin: 1vh 5px;
+    vertical-align: baseline;
     list-style: none;
-    display: block;
+    width: 15vw;
+    
 }
                                 /* Graphic Design Page Style*/
 .gd_div {
