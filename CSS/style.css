@@ -53,96 +53,105 @@ summary, time, mark, audio, video {
 /* GLOBAL STYLES */ 
 body {
     text-align: center;
-    background-color: #000;
-    color: whitesmoke;
+    background: #000;
+    color: #f5f5f5;
 }                          
 /* HEADER STYLES */
 
-.header-nav {
-    float:right;
-}
-.header-nav > li {
-    color: whitesmoke;
-    font-family: "Roboto", Helvetica, sans-serif;
-    opacity:0.9;
-    float: left;
+.header {
+    background: #cc3030;
 }
 
 .header-name {
-    display: inline-block;
+    background: #cc3030;
+    float: left;
     font-size: 2rem;
+    padding: 5vh 0;
+    margin-left: 5%;
 }
 
-nav li {
+.header-nav {
+    float:right;
+    padding: 5.5vh 60px 0 0;
+}
+
+.header-nav > li {
+    color: #f5f5f5;
     display: inline-block;
+    font-family: "Roboto", Helvetica, sans-serif;
     list-style: none;
-    margin: 1em;
+    margin-left: 1em;
+    opacity:0.9;    
 }
 
-nav a {
+.header-nav >  a:first-child {
+    color: #f5f5f5;
+
+}
+
+.header-nav > li:first-child a:hover {
+    color: #000;
+}
+
+
+.header-nav a {
+    background: #32cd32;
     border-radius: 20px;
+    color: #f5f5f5;
     font-size: 1em;
     font-weight: bold;
+    padding: .5rem;
+    text-align: center;
     text-decoration: none;
     text-transform: lowercase;
-    padding: .5em;
-    background: limegreen;
-    color: whitesmoke;
-    text-align: center;
 }
 
 a:hover,
 a:focus {
-   background: whitesmoke;
-   color: black;
+   background: #f5f5f5;
+   color: #32cd32;
 }
-.full-hero {
-    width: 1000px;
-    height: auto;
-}
-.hero-content {
-    background-image: url("https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/10459108_10154268229705228_2750053271951246018_n.jpg?_nc_cat=102&_nc_ht=scontent-mia3-1.xx&oh=a56347c3f5a3791ef6706b0c4d97c337&oe=5CF3589A");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+
+
+
+.full-hero img {
+    background: #000;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* Content Style */
 
 .intro {
-color:  black;
-background: whitesmoke;
+color:  #000;
+background: #f5f5f5;
 font-size: 1em;
 font-family: Georgia;
 width: 100%;
-margin: auto;
+margin: 0 auto;
 padding: 1em;
 font-size: 1em;
 
 }
 
 .intro p {
-    width:70%;
-    margin: auto;
+    margin: 0 auto;
+    padding: 5vh 0;
     text-align: justify;
+    width:30%;
 }
 
 h2 {
     font-size: 2em;
-    padding: .5em;
+    padding: 1em 0;
  }
 
-
-
- div .container {
-    width: 70%;
-    margin: auto;
- }
  
 ul > .skills {
-    background-color: limegreen;
+    background-color: #32cd32;
     border-radius: 50px;
-    color: whitesmoke;
+    color: #f5f5f5;
     display: inline-block;
     padding: 10px;
     margin: 1vh 5px;
@@ -152,39 +161,9 @@ ul > .skills {
     
 }
                                 /* Graphic Design Page Style*/
-.gd_div {
-    background-color: limegreen;
-    
-}
-.gd_img {
-    width: 40%;
-    display: inline-block;
-    
-}
-.a {
-    width: 50vh;
-    margin-top: 5%;
-}
-
-.b {
-    width: 50vh;
-}
-.d {
-    width: 50vh;
-}
-
-.j {
-    width: 70%;
-}
-
-                            /* Footer Style*/
-
-img {
-  width: 50px;
-}
 
 .subtitles {
-color: whitesmoke;
+color: #f5f5f5;
     font-family: "futura", sans-serif;
 
 }
