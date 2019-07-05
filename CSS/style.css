@@ -168,6 +168,12 @@ color: #f5f5f5;
 
 }
 
+                                    /* FOOTER STYLES */
+.social-networks {
+    width: 3vw;
+}
+
+
                                     /*  Media Queries 
 
   @media only screen and (min-width: 1000px)
